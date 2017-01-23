@@ -1,0 +1,45 @@
+[
+  {
+    "type": "get",
+    "url": "/do/something",
+    "title": "",
+    "parameter": {
+      "examples": [
+        {
+          "title": "Request-Example:",
+          "content": "{\n  \"id\": 4711\n}",
+          "type": "json"
+        },
+        {
+          "title": "参数",
+          "content": "{\n    \"name\": \"best-app-ever\",\n    \"version\": \"1.0.0\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "success": {
+      "examples": [
+        {
+          "title": "操作成功",
+          "content": "{\n    \"name\": \"best-app-ever\",\n    \"version\": \"1.0.0\"\n}",
+          "type": "json"
+        },
+        {
+          "title": "返回2:",
+          "content": "HTTP/1.1 200 OK\n{\n  \"firstname\": \"John\",\n  \"lastname\": \"Doe\"\n}",
+          "type": "json"
+        },
+        {
+          "title": "返回1:",
+          "content": "HTTP/1.1 200 OK\n{\n  \"firstname\": \"John\",\n  \"lastname\": \"Doe\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "version": "0.0.0",
+    "filename": "test/src/myapp.js",
+    "group": "_Users_huixisheng_Workspaces_apidoc_plugin_json_test_src_myapp_js",
+    "groupTitle": "_Users_huixisheng_Workspaces_apidoc_plugin_json_test_src_myapp_js",
+    "name": "GetDoSomething"
+  }
+]

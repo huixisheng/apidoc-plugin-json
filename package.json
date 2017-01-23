@@ -1,0 +1,37 @@
+{
+  "name": "apidoc-plugin-json",
+  "version": "0.0.1",
+  "description": "apidoc plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/",
+    "build-example": "cd .. && apidoc-plugin-json/node_modules/apidoc/bin/apidoc -i apidoc-plugin-json/test/src/ -o apidoc-plugin-json/tmp/  && cd apidoc-plugin-json",
+    "check-updates": "npm-check-updates"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huixisheng/apidoc-plugin-json.git"
+  },
+  "keywords": [
+    "apidoc"
+  ],
+  "author": "huixisheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huixisheng/apidoc-plugin-json/issues"
+  },
+  "homepage": "https://github.com/huixisheng/apidoc-plugin-json#readme",
+  "devDependencies": {
+    "trim": "0.0.1",
+    "apidoc": "*",
+    "apidoc-core": "~0.7.0",
+    "fs-extra": "^0.28.0",
+    "jshint": "^2.9.2",
+    "mocha": "^2.4.5",
+    "npm-check-updates": "^2.6.3",
+    "should": "^8.3.1",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}

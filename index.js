@@ -63,6 +63,8 @@ function parserFindElements(elements, element, block, filename) {
     return createNewElement(elements, element, filename, 'apiParamExample');
   } else if (element.name === 'apisuccessjson') {
     return createNewElement(elements, element, filename, 'apiSuccessExample');
+  } else if (element.name === 'apierrorjson') {
+    return createNewElement(elements, element, filename, 'apiErrorExample');
   }
   return elements;
 }

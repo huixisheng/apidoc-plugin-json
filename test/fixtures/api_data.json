@@ -36,6 +36,15 @@
         }
       ]
     },
+    "error": {
+      "examples": [
+        {
+          "title": "操作失败",
+          "content": "{\n  \"status\": 0\n}",
+          "type": "json"
+        }
+      ]
+    },
     "version": "0.0.0",
     "filename": "test/src/myapp.js",
     "group": "_Users_huixisheng_Workspaces_apidoc_plugin_json_test_src_myapp_js",

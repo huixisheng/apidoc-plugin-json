@@ -8,6 +8,7 @@
  *     }
  * @apiParamJson {file=./apidoc.json} 参数
  * @apiSuccessJson {file=./apidoc.json} 操作成功
+ * @apiErrorJson {file=./error.json} 操作失败
  *
  * @apiSuccessExample {json} 返回2:
  *     HTTP/1.1 200 OK

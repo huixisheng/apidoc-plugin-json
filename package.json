@@ -1,12 +1,11 @@
 {
   "name": "apidoc-plugin-json",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "apidoc plugin",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/",
-    "build-example": "cd .. && apidoc-plugin-json/node_modules/apidoc/bin/apidoc -i apidoc-plugin-json/test/src/ -o apidoc-plugin-json/tmp/  && cd apidoc-plugin-json",
-    "check-updates": "npm-check-updates"
+    "build-example": "cd .. && apidoc-plugin-json/node_modules/apidoc/bin/apidoc -i apidoc-plugin-json/test/src/ -o apidoc-plugin-json/tmp/  && cd apidoc-plugin-json"
   },
   "repository": {
     "type": "git",
@@ -21,11 +20,13 @@
     "url": "https://github.com/huixisheng/apidoc-plugin-json/issues"
   },
   "homepage": "https://github.com/huixisheng/apidoc-plugin-json#readme",
-  "devDependencies": {
+  "dependencies": {
     "trim": "0.0.1",
-    "apidoc": "*",
+    "apidoc": "~0.17.3",
     "apidoc-core": "~0.7.0",
-    "fs-extra": "^0.28.0",
+    "fs-extra": "^0.28.0"
+  },
+  "devDependencies": {
     "jshint": "^2.9.2",
     "mocha": "^2.4.5",
     "npm-check-updates": "^2.6.3",
